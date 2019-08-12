@@ -249,7 +249,7 @@ public class Carro extends Applet {
         do{ //Solicitud de las unidades de aceite a ingresarle al tanque respectivo
             tmp=JOptionPane.showInputDialog("Ingrese la cantidad de aceite en\n"
                                           + "litros (Lts) para introducirle al auto.\n"
-                                          + "Nivel del tanque actual: "+tg+"Lts.\n\n"); //Solicitud de la sunidades de aceite a ingresalre al tanque respectivo
+                                          + "Nivel del tanque actual: "+ta+"Lts.\n\n"); //Solicitud de la sunidades de aceite a ingresalre al tanque respectivo
             h=Double.parseDouble(tmp); //Asignacion a la varialbe "h" a las unidades ingresadas por el usuario para calificar su valor posteriormente
             if (h<0) //En caso de que el usuario ingrese una cantidad negativa
                 JOptionPane.showMessageDialog(null,"Porfavor ingrese una cantidad positiva (h>=0).\n\n"); //Mensaje de alerta
